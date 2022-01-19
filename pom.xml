@@ -109,8 +109,18 @@
 		<dependency>
 			<groupId>flimlib</groupId>
 			<artifactId>flimlib</artifactId>
-			<version>${flimlib.version}</version>
+			<version>2.1.2-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>/Users/paddy/.m2/repository/flimlib/flimlib/2.1.2-SNAPSHOT/flimlib-2.1.2-SNAPSHOT.jar</systemPath>
 		</dependency>
+		<dependency>
+			<groupId>flimlib</groupId>
+			<artifactId>flimlib</artifactId>
+			<version>2.1.2-SNAPSHOT</version>
+			<classifier>natives-osx_arm64</classifier>
+			<scope>system</scope>
+			<systemPath>/Users/paddy/.m2/repository/flimlib/flimlib/2.1.2-SNAPSHOT/flimlib-2.1.2-SNAPSHOT-natives-osx_arm64.jar</systemPath>
+		  </dependency>
 
 		<!-- ImageJ dependencies -->
 		<dependency>
